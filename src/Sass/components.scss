@@ -1,0 +1,37 @@
+@import './global.scss';
+
+
+
+.button-geral{
+
+    margin: 15px;
+    width: 180px;
+    padding: 5px;
+
+    font-size: 1rem;
+    font-weight: 800;
+
+    cursor: pointer;
+
+    color: $color-font-button;
+
+    border-radius: $border-radius-button;
+
+    transition: transform 100ms ease-in-out;
+    &:hover{
+        transform: scale(1.05);
+    }&:active{
+        transform: scale(1.05);
+    }        
+
+}
+
+.input-app{
+    height: 28px;
+    padding: 5px;
+    font-size: 1rem;
+    color: $color-font-button;
+
+    border-radius: $border-radius-button;
+
+}

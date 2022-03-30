@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.button-geral {
+  margin: 15px;
+  width: 180px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  color: #2f3640;
+  border-radius: 10px;
+  transition: transform 100ms ease-in-out;
+}
+.button-geral:hover {
+  transform: scale(1.05);
+}
+.button-geral:active {
+  transform: scale(1.05);
+}
+
+.input-app {
+  height: 28px;
+  padding: 5px;
+  font-size: 1rem;
+  color: #2f3640;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=components.css.map */
